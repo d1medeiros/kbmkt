@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+    font-weight: 300;
+	
+}
+
+fon12 {
+	font-size:12px;
+}
+
+.fon14 {
+	font-size:14px;
+	color:#d4a51a;
+}
+
+.fonGold {
+	color:#d4a51a;
+}
+
+li {
+    font-weight: 300;
+	
+}
+
+

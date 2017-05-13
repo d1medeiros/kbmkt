@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/loja.css" >
+<title>FORMULÁRIO</title>
+
+	<script>
+		function getOption() {
+			var obj = document.getElementById("mySelect");
+			document.getElementById("demo").innerHTML = 
+			obj.options[obj.selectedIndex].text;
+		}
+    </script>
+
+</head>
+
+<body>	
+	
+    
+	<div class="container">
+    	<div class="principal">
+            <form>
+                
+                <label> CONTATO </label>
+                
+                     <div class="checkbox">
+                        <label><input type="checkbox" value="" id="mySelect" onclick="getOption()" >Aluno </label>
+                    
+                        <label><input type="checkbox" value="" id="mySelect" onclick="getOption()">Franqueado </label>
+                     </div>
+                     
+                     
+                     <label>Nome:</label> 
+                     <input class="form-control" type="text" name="nome">
+                     
+                     <br/>
+                     
+                     <label>Sobrenome:</label> 
+                     <input class="form-control" type="text" name="sobrenome">
+                     
+                     <br/>
+                     
+                     <label>E-mail:</label> 
+                     <input class="form-control" type="email" name="email">
+                     
+                     <br/>
+                     
+                     <label>Telefone:</label> 
+                     <input class="form-control" type="text" name="telefone">
+                     
+                     <br/>
+                     
+                     <div >
+                     <label>Unidade:</label>
+      				 <select class="form-control" name="unidade" >
+                         <option> Itaguaí </option>
+                         <option> Campo Grande </option>
+                         <option> Macaé </option>
+        			 </select>
+  					 </div>
+                                           
+                     <br/>    
+                     
+                     <label>Assunto:</label>
+      				 <select class="form-control" name="assuntoaluno" >
+                         <option> Financeiro </option>
+                         <option> Administração </option>
+                         <option> Pedagógico </option>
+                         <option> CAAL </option>
+        			 </select>
+                         
+                     <br/>    
+                	 
+                     <label>Assunto:</label>
+      				 <select class="form-control" name="assuntofranqueado" >
+                         <option> Informações </option>
+                         <option> Sugestões </option>
+                         <option> Dúvidas </option>
+                         <option> Críticas </option>
+                         <option> CAF </option>
+        			 </select>
+                         
+                     <br/> 
+                     
+                     <input class="form-control" type="text" name="mensagem" >  
+                     
+            </form>
+            
+            
+            
+        </div>
+	</div>
+
+</body>
+</html>
